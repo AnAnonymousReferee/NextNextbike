@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#controls {
+  padding: 12px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+}
+
+button {
+  cursor: pointer;
+}
+
+#map {
+  height: calc(100vh - 80px);
+  width: 100%;
+}
+
+.bike-icon {
+  width: 30px;
+  height: 30px;
+  background: white;
+  border: 2px solid #333;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.bike-icon--electric {
+  border-color: #2563eb;
+  background: #eff6ff;
+}
+
+.bike-icon--favorite {
+  border-color: #ca8a04;
+  background: #fef3c7;
+  color: #ca8a04;
+  font-weight: 700;
+}
+
+.bike-icon--grey {
+  border-color: #6b7280;
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+.error-message {
+  color: #dc2626;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  display: block;
+  font-weight: 500;
+}
+
+input.border-red-500 {
+  border-color: #dc2626 !important;
+  background-color: #fef2f2;
+}
