@@ -1,5 +1,3 @@
-Dies ist der Branch für das erste Project 1.
-
 ## Backend-Frontend Integration
 
 Der Backend-Server bietet sowohl die REST-API als auch die statischen Frontend-Dateien an.
