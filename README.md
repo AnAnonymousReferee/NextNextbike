@@ -5,8 +5,7 @@ Der Backend-Server bietet sowohl die REST-API als auch die statischen Frontend-D
 ### Server starten
 
 ```powershell
-cd c:\Users\carl\Documents\POOSE
-.venv\Scripts\python.exe backend/server.py
+python backend/server.py
 ```
 
 Dann im Browser öffnen:
